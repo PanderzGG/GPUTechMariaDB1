@@ -34,3 +34,8 @@ select chipsatz, sockel, count(*)
     from mobo
         where sockel = 'AM5'
             group by chipsatz;
+
+# Show GPU Chips
+select GPUChip, count(*)
+    from gpu
+        group by GPUChip;
