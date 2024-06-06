@@ -1,0 +1,6 @@
+
+
+DROP DATABASE IF EXISTS PCHardware;
+CREATE DATABASE PCHardware;
+
+USE PCHardware;
