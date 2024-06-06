@@ -39,3 +39,8 @@ select chipsatz, sockel, count(*)
 select GPUChip, count(*)
     from gpu
         group by GPUChip;
+
+
+select Chipsatz, MaxMemory, COUNT(*)
+    from mobo
+        group by Chipsatz;
