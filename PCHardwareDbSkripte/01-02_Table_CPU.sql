@@ -9,7 +9,7 @@ create table CPU(
     Released DATE,
     Kerne VARCHAR (40),
     Takt VARCHAR (20),
-    Sockel VARCHAR (10),
+    Sockel VARCHAR (15),
     Process VARCHAR (8),
     L3Cahce VARCHAR (8),
     TDP VARCHAR (10)

@@ -8,6 +8,29 @@ select * from cpu;
 
 select * from mobo;
 
+#check how many cpu per manufacturer
+SELECT hersteller, count (*)
+FROM cpu
+WHERE YEAR(Released) = 2023 and Hersteller = 'Intel';
+
+select hersteller, count (*)
+from cpu
+where year(Released) = 2023 and Hersteller = 'AMD';
+
+select *, count (*)
+from cpu
+where year(Released) = 2023;
+
+#check what manufacturers are present
+select distinct hersteller
+from cpu;
+
+select distinct hersteller
+from gpu;
+
+select distinct hersteller
+from mobo;
+
 
 # Show Manufacturer and amount
 select hersteller, count(*)
@@ -44,6 +67,11 @@ select GPUChip, count(*)
 select Chipsatz, MaxMemory, COUNT(*)
     from mobo
         group by Chipsatz;
+
+
+
+
+
 
 
 # Überprüfen
