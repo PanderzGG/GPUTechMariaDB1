@@ -2,15 +2,17 @@
 <project version="4">
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$/PCHardware.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/PCHardwareDbSkripte/00-00_Datenbank_Reset.sql" dialect="MariaDB" />
-    <file url="file://$PROJECT_DIR$/PCHardwareDbSkripte/01-01_Table_GPU.sql" dialect="MariaDB" />
-    <file url="file://$PROJECT_DIR$/PCHardwareDbSkripte/01-02_Table_CPU.sql" dialect="MariaDB" />
-    <file url="file://$PROJECT_DIR$/PCHardwareDbSkripte/01-03_Table_Mobo.sql" dialect="MariaDB" />
-    <file url="file://$PROJECT_DIR$/PCHardwareDbSkripte/02-01_DATA_GPU.sql" dialect="MariaDB" />
-    <file url="file://$PROJECT_DIR$/PCHardwareDbSkripte/02-02_DATA_CPU.sql" dialect="MariaDB" />
-    <file url="file://$PROJECT_DIR$/PCHardwareDbSkripte/02-03_DATA_Mobo.sql" dialect="MariaDB" />
-    <file url="file://$PROJECT_DIR$/PCHardwareDbSkripte/05-05_Misc_Search_Code.sql" dialect="MariaDB" />
-    <file url="file://$PROJECT_DIR$/PCHardwareDbSkripte/05-06_Select_GPU.sql" dialect="MariaDB" />
+    <file url="file://$PROJECT_DIR$/PCHardware_SQL_Scripts/00_DB Reset/00-00_Datenbank_Reset.sql" dialect="MariaDB" />
+    <file url="file://$PROJECT_DIR$/PCHardware_SQL_Scripts/01_Tables/01-01_Table_Hersteller.sql" dialect="MariaDB" />
+    <file url="file://$PROJECT_DIR$/PCHardware_SQL_Scripts/01_Tables/01-02_Table_GPU_Chips.sql" dialect="MariaDB" />
+    <file url="file://$PROJECT_DIR$/PCHardware_SQL_Scripts/01_Tables/01-03_Table_GPU.sql" dialect="MariaDB" />
+    <file url="file://$PROJECT_DIR$/PCHardware_SQL_Scripts/01_Tables/01-04_Table_CPU.sql" dialect="MariaDB" />
+    <file url="file://$PROJECT_DIR$/PCHardware_SQL_Scripts/01_Tables/01-05_Table_Mobo.sql" dialect="MariaDB" />
+    <file url="file://$PROJECT_DIR$/PCHardware_SQL_Scripts/02_DATA/02-01_Daten_Hersteller.sql" dialect="MariaDB" />
+    <file url="file://$PROJECT_DIR$/PCHardware_SQL_Scripts/02_DATA/02-02_Daten_GPU_Chips.sql" dialect="MariaDB" />
+    <file url="file://$PROJECT_DIR$/PCHardware_SQL_Scripts/02_DATA/02-03_DATA_GPU.sql" dialect="MariaDB" />
+    <file url="file://$PROJECT_DIR$/PCHardware_SQL_Scripts/05_Executable_Code/05-05_Misc_Search_Code.sql" dialect="MariaDB" />
+    <file url="file://$PROJECT_DIR$/PCHardware_SQL_Scripts/05_Executable_Code/05-06_Select_GPU.sql" dialect="MariaDB" />
     <file url="PROJECT" dialect="MariaDB" />
   </component>
 </project>
