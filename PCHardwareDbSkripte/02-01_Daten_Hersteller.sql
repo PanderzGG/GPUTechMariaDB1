@@ -9,4 +9,4 @@ insert into hersteller values
     (6, 'Gigabyte'),
     (7, 'ASRock'),
     (8, 'NZXT')
-    ;
+;

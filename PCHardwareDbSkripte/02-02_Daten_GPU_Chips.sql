@@ -14,8 +14,6 @@ insert into gpu_chips values
                           (null, 1, 'Barts'),
                           (null, 1, 'Beema'),
                           (null, 1, 'Blackcomb'),
-                          #Bis hier. Bonair ist als nächstes mit Nummer 14
-
                           (null, 1, 'Bonaire'),
                           (null, 1, 'Broadway'),
                           (null, 1, 'Caicos'),
@@ -129,7 +127,8 @@ insert into gpu_chips values
                           (null, 1, 'Weston'),
                           (null, 1, 'Whistler'),
                           (null, 1, 'Wimbledon'),
-                          (null, 2, ''),
-                          (null, 2, ''),
-                          (null, 2, ''),
-                          (null, 2, ''),
+                          (null, 1, 'Seymour'),
+                          (null, 1, 'Tonga'),
+                          (null, 1, 'Topaz'),
+                          (null, 2, '')
+;
