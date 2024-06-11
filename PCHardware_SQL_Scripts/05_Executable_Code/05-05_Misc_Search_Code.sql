@@ -28,4 +28,3 @@ FROM
     hersteller ON GPU.Hersteller_ID = hersteller.Hersteller_ID
         JOIN
     GPU_Chips ON GPU.GPUChip = GPU_Chips.GPU_Chip_ID;
-
