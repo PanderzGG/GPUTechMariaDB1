@@ -10,7 +10,11 @@ CREATE TABLE GPU(
                         REFERENCES hersteller(Hersteller_ID),
                     
                     ProduktName VARCHAR (50),
-                    GPUChip VARCHAR (30),
+                    GPUChip INT,
+
+                    FOREIGN KEY G_CPUChip_FK(GPUChip)
+                        REFERENCES gpu_chips(GPU_Chip_ID),
+
                     Released DATE,
                     Bus VARCHAR (30),
                     Speicher VARCHAR (30),
