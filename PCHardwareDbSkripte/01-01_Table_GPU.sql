@@ -3,7 +3,8 @@ USE pchardware;
 CREATE TABLE GPU(
 
                     GPU_ID INT PRIMARY KEY AUTO_INCREMENT,
-                    Hersteller VARCHAR (30),
+                    #Hersteller VARCHAR (30),
+                    Hersteller_ID INT,
                     ProduktName VARCHAR (50),
                     GPUChip VARCHAR (30),
                     Released DATE,
