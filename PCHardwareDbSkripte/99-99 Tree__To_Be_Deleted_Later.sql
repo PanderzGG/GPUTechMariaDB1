@@ -1,0 +1,12 @@
+00-00_DBReset.sql
+01-01_Table_Hersteller.sql
+01-02_Table_GPU_Chips.sql
+01-03_Table_GPU.sql
+01-04_Table_CPU.sql
+01-05_Table_Mobo.sql
+02-01_Daten_Hersteller.sql
+02-02_Daten_GPU_Chips.sql
+02-03_Daten_GPU.sql
+02-04_Daten_CPU.sql
+02-05_Daten_Mobo.sql
+05-05_Misc_Search_Code.sql
